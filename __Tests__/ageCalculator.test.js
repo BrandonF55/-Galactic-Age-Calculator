@@ -29,9 +29,13 @@ describe('AgeCalculator', () => {
   test('this should correctly return the age in Mars years', () => {
     expect(calc.calculator('Jupiter')).toEqual(2.36)
   })
-  // test #6 
+  // test #6 Murcury
   test('should correctly return years left to live on Murcury', () => {
     expect(calc.yearsToLive('Murcury')).toEqual(185.83);
   })
+  // test #7 Venus
+  test('should correctly return years left to live on Venus', () => {
+    expect(calc.yearsToLive("Venus")).toEqual(117.1);
+  });
 
 });
