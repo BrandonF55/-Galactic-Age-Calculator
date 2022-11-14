@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668446223223" clover="3.2.0">
-  <project timestamp="1668446223223" name="All files">
+<coverage generated="1668447840019" clover="3.2.0">
+  <project timestamp="1668447840019" name="All files">
     <metrics statements="4" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1" elements="7" coveredelements="2" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="ageCalculator.js" path="/Users/brandonfenk/Desktop/-Galactic-Age-Calculator/src/JS/ageCalculator.js">
       <metrics statements="4" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1"/>
