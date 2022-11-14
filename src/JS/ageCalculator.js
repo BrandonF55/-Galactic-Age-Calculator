@@ -40,6 +40,7 @@ export class AgeCalculator {
       case "Mercury":
         mercuryLifeExp = parseFloat((lifeExpectancy/.25).toFixed(2));
         return mercuryLifeExp;
+
         // case "Venus":
         //   venusLifeExp = parseFloat((lifeExpectancy/.62).toFixed(2));
         //   return venusLifeExp;

@@ -31,7 +31,7 @@ describe('AgeCalculator', () => {
   })
   // test #6 Murcury
   test('should correctly return years left to live on Murcury', () => {
-    expect(calc.yearsToLive('Murcury')).toEqual(185.83);
+    expect(calc.yearsToLive('Murcury')).toEqual(290.5);
   })
   // // test #7 Venus
   // test('should correctly return years left to live on Venus', () => {
