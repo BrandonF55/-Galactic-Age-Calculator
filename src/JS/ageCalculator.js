@@ -29,7 +29,7 @@ export class AgeCalculator {
 
 
     
-  calculatePlantetLifeExpectancy(planet) {
+  yearsToLive(planet) {
     let lifeExpectancy = 72.6;
     let mercuryLifeExp;
     let venusLifeExp;
@@ -42,4 +42,15 @@ export class AgeCalculator {
         return mercuryLifeExp;
     }
   }
+
+
+
+// yearsToLive(planet){
+//   let planetAge = this.calculator(plant);
+//   let planetLifeExpectancy =this.calculatePlantetLifeExpectancy(planet);
+//   let yearsToLive = parseFloat((planetLifeExpectancy - planetAge).toFixed(2));
+// }
+
+
+
 }
