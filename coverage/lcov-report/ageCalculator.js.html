@@ -22,16 +22,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">88.89% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>16/16</span>
+                <span class='fraction'>16/18</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>6/7</span>
             </div>
         
             
@@ -43,9 +43,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">88.89% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>16/16</span>
+                <span class='fraction'>16/18</span>
             </div>
         
             
@@ -117,7 +117,10 @@
 <a name='L59'></a><a href='#L59'>59</a>
 <a name='L60'></a><a href='#L60'>60</a>
 <a name='L61'></a><a href='#L61'>61</a>
-<a name='L62'></a><a href='#L62'>62</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -166,6 +169,9 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -184,31 +190,31 @@
   }
 &nbsp;
 &nbsp;
-  calculator(planet){
+  calculator(planet) {
     let mercuryAge;
     let venusAge;
     let marsAge;
     let jupiterAge;
 &nbsp;
-      switch(planet) {
-        case "Mercury":
-        mercuryAge = parseFloat((this.age/.24).toFixed(2));
+    switch (planet) {
+      case "Mercury":
+        mercuryAge = parseFloat((this.age / .24).toFixed(2));
         return mercuryAge;
-        case "Venus": 
-        venusAge = parseFloat((this.age/.62).toFixed(2));
+      case "Venus":
+        venusAge = parseFloat((this.age / .62).toFixed(2));
         return venusAge;
-        case "Mars":
-        marsAge = parseFloat((this.age/1.88).toFixed(2));
+      case "Mars":
+        marsAge = parseFloat((this.age / 1.88).toFixed(2));
         return marsAge;
-        case "Jupiter":
-        jupiterAge = parseFloat((this.age/11.86).toFixed(2));
+      case "Jupiter":
+        jupiterAge = parseFloat((this.age / 11.86).toFixed(2));
         return jupiterAge;
-      }
+    }
 &nbsp;
-    } 
+  }
 &nbsp;
 &nbsp;
-    
+&nbsp;
   yearsToLive(planet) {
     let lifeExpectancy = 72.6;
     let mercuryLifeExp;
@@ -220,22 +226,25 @@
       // case "Mercury":
       //   mercuryLifeExp = parseFloat((lifeExpectancy/.25).toFixed(2));
       //   return mercuryLifeExp;
-        case "Venus":
-          venusLifeExp = parseFloat((lifeExpectancy/.62).toFixed(2));
-          return venusLifeExp;
-          case "Mars":
-            marsLifeExp = parseFloat((lifeExpectancy/1.88).toFixed(2));
-            return marsLifeExp;
+      case "Venus":
+        venusLifeExp = parseFloat((lifeExpectancy / .62).toFixed(2));
+        return venusLifeExp;
+      case "Mars":
+        marsLifeExp = parseFloat((lifeExpectancy / 1.88).toFixed(2));
+        return marsLifeExp;
+<span class="branch-2 cbranch-no" title="branch not covered" >      case "Jupiter":</span>
+<span class="cstat-no" title="statement not covered" >        jupiterLifeExp = parseFloat((lifeExpectancy / 11.86).toFixed(2));</span>
+<span class="cstat-no" title="statement not covered" >        return jupiterLifeExp;</span>
     }
   }
 &nbsp;
 &nbsp;
 &nbsp;
-// yearsToLive(planet){
-//   let planetAge = this.calculator(plant);
-//   let planetLifeExpectancy =this.calculatePlantetLifeExpectancy(planet);
-//   let yearsToLive = parseFloat((planetLifeExpectancy - planetAge).toFixed(2));
-// }
+  // yearsLeftOnPlanet(planet){
+  //   let planetAge = this.calculator(plant);
+  //   let planetLifeExpectancy =this.calculatePlantetLifeExpectancy(planet);
+  //   let yearsLeftOnPlanet = parseFloat((planetLifeExpectancy - planetAge).toFixed(2));
+  // }
 &nbsp;
 &nbsp;
 &nbsp;
@@ -246,7 +255,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Nov 14 2022 14:53:32 GMT-0800 (Pacific Standard Time)
+                at Mon Nov 14 2022 15:35:47 GMT-0800 (Pacific Standard Time)
             </div>
         </div>
         <script src="prettify.js"></script>

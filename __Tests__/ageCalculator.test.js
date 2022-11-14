@@ -25,25 +25,32 @@ describe('AgeCalculator', () => {
   test('this should correctly return age in Mars years', () => {
     expect(calc.calculator('Mars')).toEqual(14.89);
   })
+
   // test #5 Jupiter age
   test('this should correctly return the age in Mars years', () => {
     expect(calc.calculator('Jupiter')).toEqual(2.36);
   })
-  // // test #6 Murcury
+
+// _____________________ 
+
+  // test #6 Murcury years left on the planet.
   // test('should correctly return years to live on Murcury', () => {
-  //   expect(calc.yearsToLive('Murcury')).toEqual(290.4);
+  //   expect(calc.yearsToLive("Murcury")).toEqual(302.5);
   // })
-  // test #7 Venus years left on the planet
+
+  // test #7 Venus years left on the planet.
   test('should correctly return years left to live on Venus', () => {
     expect(calc.yearsToLive("Venus")).toEqual(117.1);
   });
-  // test #8 Mars years left on the planet
+
+  // test #8 Mars years left on the planet.
   test('should correctly return years left to live on Mars', () => {
     expect(calc.yearsToLive("Mars")).toEqual(38.62);
   });
-  // test #9 Jupiter years left on the planet
+
+  // test #9 Jupiter years left on the planet.
   test('should correctly return years left to live on Jupiter', () => {
-    expect(calc.yearsToLive("jupiter ")).toEqual(6.12)
-  })
+    expect(calc.yearsToLive("jupiter")).toEqual(3.17);
+  });
 
 });
