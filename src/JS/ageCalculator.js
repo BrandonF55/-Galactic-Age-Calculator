@@ -13,9 +13,9 @@ export class AgeCalculator {
         case "Mercury":
         mercuryAge = parseFloat((this.age/.24).toFixed(2));
         return mercuryAge;
-        // case "Venus": 
-        // venusAge = parseFloat((this.age/.62).toFixed(2));
-        // return venusAge;
+        case "Venus": 
+        venusAge = parseFloat((this.age/.62).toFixed(2));
+        return venusAge;
       }
 
     } 
