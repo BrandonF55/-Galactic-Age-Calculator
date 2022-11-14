@@ -9,6 +9,7 @@ export class AgeCalculator {
     let venusAge;
     let marsAge;
     let jupiterAge;
+
       switch(planet) {
         case "Mercury":
         mercuryAge = parseFloat((this.age/.24).toFixed(2));
@@ -26,7 +27,7 @@ export class AgeCalculator {
 
     } 
 
-}
+
     
   calculatePlantetLifeExpectancy(planet) {
     let lifeExpectancy = 72.6;
@@ -41,3 +42,4 @@ export class AgeCalculator {
         return mercuryLifeExp;
     }
   }
+}

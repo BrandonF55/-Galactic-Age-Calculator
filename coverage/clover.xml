@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668456213398" clover="3.2.0">
-  <project timestamp="1668456213398" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1668456511794" clover="3.2.0">
+  <project timestamp="1668456511794" name="All files">
+    <metrics statements="14" coveredstatements="10" conditionals="5" coveredconditionals="4" methods="3" coveredmethods="2" elements="22" coveredelements="16" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+    <file name="ageCalculator.js" path="/Users/brandonfenk/Desktop/-Galactic-Age-Calculator/src/JS/ageCalculator.js">
+      <metrics statements="14" coveredstatements="10" conditionals="5" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="13" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="39" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="41" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+    </file>
   </project>
 </coverage>
