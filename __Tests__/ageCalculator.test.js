@@ -39,7 +39,7 @@ describe('AgeCalculator', () => {
   });
   // test#8 Mars
   test('should correctly return years left to live on Mars', () => {
-    expect(calc.yearsToLive("Mars")).toEqual(38.6);
+    expect(calc.yearsToLive("Mars")).toEqual(38.62);
 
   });
 

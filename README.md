@@ -1,4 +1,42 @@
 
+
+# _{Galactic Age Calculator}_
+
+#### By _Brandon James Fenk_
+
+#### _Galactic Age Calculator to determine how old you are on other planets_
+
+## Technologies Used
+
+* _JS_
+
+## Description
+
+_Building the buiness logic for the Galactic Age Calculator_
+
+## Setup/Installation Requirements
+
+* _No Installation Requirments at this time_
+
+_At this time my project is all business logic and running test on the functions im going to implement into my Galatic Age Calculator_
+
+## Known Bugs
+
+* _No None Bugs at this time_
+
+MIT
+
+_Will update when the Galactic Age calculator is fully functionable._
+
+Copyright (c) _11-14-22_ _Brandon Fenk_
+
+Below is every Npm install you need to make a project from the ground up. Installing all packages with $ npm install.
+Building the project using webpack with $ npm run build
+Starting a development server with $ npm run start
+Linting JS files in the src folder with $ npm run lint
+Running tests with Jest using $ npm run test
+
+
 Run: npm install webpack@4.46.0 --save-dev --save-exact
 
 Run: npm install webpack-cli@3.3.12 --save-dev
@@ -28,8 +66,3 @@ npm install file-loader --save-dev(install for webpack for images)
 npm install html-loader@1.3.2 --save-dev((install for webpack for images)
 
 
-Installing all packages with $ npm install.
-Building the project using webpack with $ npm run build
-Starting a development server with $ npm run start
-Linting JS files in the src folder with $ npm run lint
-Running tests with Jest using $ npm run test

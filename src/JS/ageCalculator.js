@@ -43,9 +43,9 @@ export class AgeCalculator {
         case "Venus":
           venusLifeExp = parseFloat((lifeExpectancy/.62).toFixed(2));
           return venusLifeExp;
-          // case "Mars":
-          //   marsLifeExp = parseFloat((lifeExpectancy/1.88).toFixed(2));
-          //   return marsLifeExp;
+          case "Mars":
+            marsLifeExp = parseFloat((lifeExpectancy/1.88).toFixed(2));
+            return marsLifeExp;
     }
   }
 
