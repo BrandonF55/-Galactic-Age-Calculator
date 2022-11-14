@@ -25,22 +25,19 @@ export class AgeCalculator {
       }
 
     } 
-  }
 
+}
     
-  // calculatePlanetLifeExpectancy(planet); {
-  //   let lifeExpectancy = 72.6;
-  //   let mercuryLifeExp;
-  //   let venusLifeExp;
-  //   let marsLifeExp;
-  //   let jupiterLifeExp;
+  calculatePlantetLifeExpectancy(planet) {
+    let lifeExpectancy = 72.6;
+    let mercuryLifeExp;
+    let venusLifeExp;
+    let marsLifeExp;
+    let jupiterLifeExp;
 
-      // switch (planet){
-      //   case "Murcury":
-      //     mercuryLifeExp = 
-      // }
-
-
-
-
-    // }
+    switch (planet) {
+      case "Mercury":
+        mercuryLifeExp = parseFloat((lifeExpectancy/.24).toFixed(2));
+        return mercuryLifeExp;
+    }
+  }
