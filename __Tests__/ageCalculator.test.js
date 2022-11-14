@@ -33,14 +33,17 @@ describe('AgeCalculator', () => {
   // test('should correctly return years to live on Murcury', () => {
   //   expect(calc.yearsToLive('Murcury')).toEqual(290.4);
   // })
-  // test #7 Venus
+  // test #7 Venus years left on the planet
   test('should correctly return years left to live on Venus', () => {
     expect(calc.yearsToLive("Venus")).toEqual(117.1);
   });
-  // test#8 Mars
+  // test #8 Mars years left on the planet
   test('should correctly return years left to live on Mars', () => {
     expect(calc.yearsToLive("Mars")).toEqual(38.62);
-
   });
+  // test #9 Jupiter years left on the planet
+  test('should correctly return years left to live on Jupiter', () => {
+    expect(calc.yearsToLive("jupiter ")).toEqual()
+  })
 
 });
