@@ -50,7 +50,7 @@ describe('AgeCalculator', () => {
 
   // test #9 Jupiter years left on the planet.
   test('should correctly return years left to live on Jupiter', () => {
-    expect(calc.yearsToLive("jupiter")).toEqual(3.17);
+    expect(calc.yearsToLive("jupiter")).toEqual(6.12);
   });
 
 });
